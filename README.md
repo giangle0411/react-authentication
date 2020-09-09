@@ -18,3 +18,4 @@ An authentication API Server
 - `jwt-simple`: used to generate json web token, so when a user makes an auth request, they should include their JWT
 - `passport`: authentication library for node and express, used for cookie based authentication, create a jwt strategy that attempts to authenticate a user given a JSON web token
 - `passport-local`: used to create a local strategy that attempts to authenticate a user given only an email and a password
+- `cors`: allow request from anywhere (localhost:3000)
